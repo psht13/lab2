@@ -1,0 +1,83 @@
+body {
+  background-color: #dcdcdc;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.form-container {
+  margin-right: 5%;
+  margin-left: 10%; 
+}
+
+.form-container form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-container label {
+  font-family: Lato, sans-serif;
+  font-weight: bold;
+  color: #000000;
+  font-size: 180%;
+}
+
+.form-container input[type="email"] {
+  font-size: 20px;
+  border-radius: 5%;
+  border: none;
+  box-sizing: border-box;
+  background-color: #f0f1f7;
+  padding: 10px;
+  width: 85%;
+  margin-top: 15%;
+  margin-bottom: 5%;
+}
+
+.form-container button[type="submit"] {
+  background-color: #380fff;
+  box-sizing: border-box;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 5%;
+  cursor: pointer;
+  width: 85%;
+}
+
+.form-container button[type="submit"]:hover {
+  background-color: #1e078f;
+}
+
+.form-container button[type="submit"]:active {
+  background-color: #6b6875;
+}
+
+.form-container button[type="submit"]::before {
+  content: "Get Your Demo";
+}
+
+.photo-grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 3%;
+  padding: 20px;
+  margin-right: 10%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.photo-grid-container img {
+  max-width: 100%;
+  height: 100%;
+  border-radius: 5%;
+}
