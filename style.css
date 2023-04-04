@@ -21,7 +21,7 @@ body {
   font-size: 180%;
 }
 
-.form-container input[type="email"] {
+.form-container input {
   font-size: 20px;
   border-radius: 5%;
   border: none;
@@ -33,7 +33,7 @@ body {
   margin-bottom: 5%;
 }
 
-.form-container button[type="submit"] {
+.form-container button {
   background-color: #380fff;
   box-sizing: border-box;
   border: none;
@@ -46,15 +46,15 @@ body {
   width: 85%;
 }
 
-.form-container button[type="submit"]:hover {
+.form-container button:hover {
   background-color: #1e078f;
 }
 
-.form-container button[type="submit"]:active {
+.form-container button:active {
   background-color: #6b6875;
 }
 
-.form-container button[type="submit"]::before {
+.form-container button::before {
   content: "Get Your Demo";
 }
 
