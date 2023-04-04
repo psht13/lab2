@@ -14,13 +14,6 @@ body {
   margin-left: 10%; 
 }
 
-.form-container form {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-}
-
 .form-container label {
   font-family: Lato, sans-serif;
   font-weight: bold;
