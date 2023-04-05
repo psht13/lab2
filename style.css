@@ -23,7 +23,7 @@ body {
 
 .form-container input {
   font-size: 20px;
-  border-radius: 5%;
+  border-radius: 25px;
   border: none;
   box-sizing: border-box;
   background-color: #f0f1f7;
@@ -41,7 +41,7 @@ body {
   padding: 10px;
   text-align: center;
   font-size: 20px;
-  border-radius: 5%;
+  border-radius: 25px;
   cursor: pointer;
   width: 85%;
 }
