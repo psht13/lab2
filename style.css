@@ -74,7 +74,7 @@ body {
   border-radius: 5%;
 }
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1080px){
 .container {
      flex-wrap: wrap;
   }
@@ -82,6 +82,7 @@ body {
 .block:form-container {
      order: 1;
      max-width: 100%;
+     margin-top: 15%;
   }
 
 .block:photo-grid-container {
