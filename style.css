@@ -81,13 +81,12 @@ body {
 
 .block:form-container {
      order: 1;
-     margin-right: 0;
      max-width: 100%;
   }
 
 .block:photo-grid-container {
      order: 2;
      max-width: 100%;
-     margin-top: 20px;
+     margin-top: 10%;
   }
 }
